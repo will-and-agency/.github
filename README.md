@@ -58,22 +58,22 @@ We use a team planning board which is under **Projects** on the organization's p
 > [!NOTE]
 > Describe the task here.
 
-### 📱 Mobile Requirements (iOS/Android)
+### Mobile Requirements (iOS/Android)
 - [ ] UI implementation
 - [ ] Local storage/caching logic
 - [ ] Push notification or deep-link support
 
-### 💻 Web/Browser Requirements
+### Web/Browser Requirements
 - [ ] Extension or Web Portal UI implementation
 - [ ] Cross-browser testing 
 - [ ] Responsive design check
 
-### 🔄 Connectivity & Sync
+### Connectivity & Sync
 - [ ] API Endpoints defined/updated
 - [ ] Real-time sync (WebSockets/Polling) validation
 - [ ] Conflict resolution (what happens if both update at once?)
 
-### 📊 metadata
+### metadata
 **Estimated Time:** 4 hours  
 **Type:** [ ] Software [ ] Documentation [ ] Research  
 **Assignee:** @all
@@ -82,9 +82,16 @@ We use a team planning board which is under **Projects** on the organization's p
 > [!TIP]
 > Remember to put X inside the brackets to select a rubric for the task description. For example here:
 > ```markdown
-> ### 📊 metadata
+> ### metadata
 > **Estimated Time: 1 week  
 > **Type:** [X] Software [ ] Documentation [ ] Research  
 > **Assignee:** @tomhoq
+> ```
+
+### Documentation
+We will use documentation for each branch we create and want to push. There's a structure to documentation:
+1. We create .md files for documentation
+2. If we do a bugfix, hotfix or refactor then we just update the existing documentation
+3. When we write a documenation, we use the baby explaining technique
 
 
