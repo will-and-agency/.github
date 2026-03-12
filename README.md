@@ -55,8 +55,8 @@ We use a team planning board which is under **Projects** on the organization's p
 ```markdown
 ### Task
 
-[!NOTE]
-Describe the task here.
+> [!NOTE]
+> Describe the task here.
 
 ### 📱 Mobile Requirements (iOS/Android)
 - [ ] UI implementation
@@ -73,12 +73,18 @@ Describe the task here.
 - [ ] Real-time sync (WebSockets/Polling) validation
 - [ ] Conflict resolution (what happens if both update at once?)
 
-### ✅ Acceptance Criteria
-- [ ] Feature works offline on mobile
-- [ ] Changes reflect on Web within < 2 seconds
-- [ ] Edge case: User is logged out on one device
-
 ### 📊 metadata
 **Estimated Time:** 4 hours  
-**Type:** [ ] Hardware [ ] Software [ ] Documentation [ ] Research  
+**Type:** [ ] Software [ ] Documentation [ ] Research  
 **Assignee:** @all
+```
+
+> [!TIP]
+> Remember to put X inside the brackets to select a rubric for the task description. For example here:
+> ```markdown
+> ### 📊 metadata
+> **Estimated Time: 1 week  
+> **Type:** [X] Software [ ] Documentation [ ] Research  
+> **Assignee:** @tomhoq
+
+
