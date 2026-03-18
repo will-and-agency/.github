@@ -56,17 +56,17 @@ We use a team planning board which is under **Projects** on the organization's p
 ### Task
 
 > [!NOTE]
-> Describe the task here.
+> Implement the logic of the management where the Root Moderator creates initial company and the super mod
 
 ### Mobile Requirements (iOS/Android)
-- [ ] UI implementation
-- [ ] Local storage/caching logic
-- [ ] Push notification or deep-link support
+- [ ] frontend
+- [ ] backend
+- [ ] testing
 
 ### Web/Browser Requirements
-- [ ] Extension or Web Portal UI implementation
-- [ ] Cross-browser testing 
-- [ ] Responsive design check
+- [ ] frontend
+- [x] backend
+- [ ] testing
 
 ### Connectivity & Sync
 - [ ] API Endpoints defined/updated
@@ -74,9 +74,9 @@ We use a team planning board which is under **Projects** on the organization's p
 - [ ] Conflict resolution (what happens if both update at once?)
 
 ### metadata
-**Estimated Time:** 4 hours  
-**Type:** [ ] Software [ ] Documentation [ ] Research  
-**Assignee:** @all
+**Estimated Time:** 1 day
+**Type:** [x] Software [ ] Documentation [ ] Research  
+
 ```
 
 > [!TIP]
