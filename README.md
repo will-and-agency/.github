@@ -19,6 +19,7 @@ We use an **Issue-First** branching model. All branches must be prefixed with th
 
 > [!TIP]
 > Always create your branch from `develop`. Ensure your local environment is synced before branching: `git checkout develop && git pull`.
+> Always test the code before pushing, using any type of testing.
 
 ---
 
