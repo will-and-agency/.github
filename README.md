@@ -40,6 +40,12 @@ We use structured commit messages to make the project history scannable.
 * `bugfix(108): mobile menu now closes on backdrop click`
 * `docs(15): add branching rules to readme`
 
+> [!TIP]
+> Always run this line before doing git add:
+> ```markdown
+> cargo fmt --all
+>```
+> This format all packages within a workspace, ensures consistent coding style by applying rules defined in rustfmt.toml. Also the CI pipeline will fail if you didnt run this line on your local terminal.
 ---
 
 ### Pull Request (PR) Process
@@ -85,7 +91,7 @@ We use a team planning board which is under **Projects** on the organization's p
 > ```markdown
 > ### metadata
 > **Estimated Time: 1 week  
-> **Type:** [X] Software [ ] Documentation [ ] Research  
+> **Type:** [x] Software [ ] Documentation [ ] Research  
 > **Assignee:** @tomhoq
 > ```
 
